@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+* body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Ubuntu;
+  background: #D6E4E5;
+}
+* body #content {
+  text-align: center;
+  margin: 0 auto;
+  width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid #000;
+  background: #EFF5F5;
+}
+* body #content #section-input {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-bottom: 1px;
+}
+* body #content #section-input input, * body #content #section-input textarea {
+  margin: 5px;
+  font-family: Ubuntu;
+  font-weight: bold;
+  resize: vertical;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 3px;
+}
+* body #content .hide {
+  display: none;
+}
+* body #content #edit-input {
+  width: 50%;
+  padding-top: 10px;
+  margin: 20px auto;
+  flex-wrap: wrap;
+  border-top: 2px solid #ccc;
+}
+* body #content #edit-input input, * body #content #edit-input textarea {
+  width: 90%;
+  margin: 5px;
+  font-family: Ubuntu;
+  font-weight: bold;
+  resize: vertical;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 3px;
+}
+* body #content button {
+  width: 40px;
+  text-align: center;
+  border: none;
+  padding: 5px;
+  margin: 5px auto;
+  background-color: #EFF5F5;
+  transition: 0.3s;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+* body #content button i {
+  font-size: 20px;
+  pointer-events: none;
+}
+* body #content button:hover {
+  background: #D6E4E5;
+  border: 2px solid #000;
+}
+* body #content .notes {
+  font-weight: bold;
+  margin: 20px auto;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+  border-radius: 20px;
+  transition: 1s;
+}
+* body #content .notes p {
+  padding: 5px;
+}
+* body #content .notes-done {
+  font-weight: bold;
+  text-decoration: line-through;
+  margin: 20px auto;
+  width: 50%;
+  display: hide;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+  background: #D6E4E5;
+  border-radius: 20px;
+  transition: 2s;
+}
+* body #content .notes-done button {
+  background-color: #D6E4E5;
+  transition: 2s;
+}
+* body #content .notes-done button:hover {
+  background-color: #EFF5F5;
+  transition: 2s;
+}
+* body #content content {
+  width: 80%;
+  display: flex;
+  justify-content: start;
+  margin: 2px auto;
+}
+* body #content content input, * body #content content textarea {
+  margin: 5px;
+  font-family: Ubuntu;
+  font-weight: bold;
+  resize: vertical;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 3px;
+}
+* body #content #search {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-top: 2px solid #ccc;
+  padding-top: 10px;
+}
+* body #content #search input {
+  font-family: Ubuntu;
+  font-weight: bold;
+  resize: vertical;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+* body #content #search i {
+  display: flex;
+  pointer-events: none;
+  align-items: center;
+  justify-content: center;
+}
+* body .footer .contact {
+  background: #6d6767;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  color: #fff;
+}
+* body .footer .contact a {
+  color: #fff;
+}
+* body .footer .contact a:hover {
+  color: #000;
+  transition: 0.3s;
+}
+* body .footer .contact i {
+  font-size: 25px;
+  transition: 0.3s;
+  padding-left: 10px;
+  color: #fff;
+}
+* body .footer .contact i:hover {
+  color: #000;
+  transition: 0.3s;
+}
+* body .footer .contact h4 {
+  display: flex;
+  align-items: center;
+}
+* body .footer .contact h2 {
+  display: flex;
+}
+* body .footer .contact p:hover {
+  color: #000;
+  transition: 0.3s;
+}
+
+/*# sourceMappingURL=style.css.map */

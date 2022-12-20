@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="João Victor Conquista">
+    <meta name="description" content="Um bloco de notas online feito com JavaScript puro, HTML e CSS">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>z
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="assets/scripts.js" defer></script>
+    <title>Bloco de Notas</title>
+</head>
+<body>
+      <div id="content">
+        <div id="divs">
+            <form id="section-input">
+                <h2>Notas</h2>
+                <input type="text" id="title-input" placeholder="Título">
+                <textarea type="text" id="text-input" placeholder="Nota..."></textarea>
+                <button type="submit">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+                <div id="search">
+                    <input type="text" placeholder="Pesquisar tarefas .." id="search-input">
+                    <button type ="submit" id="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </form>
+        </div>
+        <div id="edit-input" class="hide">
+            <h3>Edite sua nota</h3>
+            <input type="text" id="edit-title" placeholder="Título">
+            <textarea type="text" id="edit-text" placeholder="Nota..."></textarea>
+            <div>
+                <button type="submit" id="btn-change"><i class="fa-solid fa-check"></i></button>
+                <button id="btn-cancel-change"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+        <form id="notes-list">
+        </form>
+      </div>
+
+      <footer>
+        <div class="footer">
+            <div class="contact">
+                <h2>Contact :</h2>
+                <p>conquistajoaovictor@gmail.com</p>
+                <h4>Linkedin <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-conquista-97328017b/"><i class="fa-brands fa-linkedin"></i></a></h4>
+                <h4>GitHub <a href="https://github.com/JaoConquista"><i class="fa-brands fa-github"></i></a></h4>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
